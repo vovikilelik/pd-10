@@ -2,25 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Пиццы</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .block {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 500px;
+            
+            margin-bottom: 40px;
+        }
+        
+        .block > *:not(:first-child) {
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
 
-Назад
-
-Пиццы
-
-Валентин
-Оливки, перец, лук, бекон, вяленое мясо
-450Р В корзину
-
-Иоганн Георг
-Томантая паста, зеленые листочки, моцарелла
-740Р В корзину
-
-Маргарита
-Томатная паста, базилик, масло оливковое, моцарелла
-390 Р В корзину
-
+    <div class="content">
+        <div><a href="javascript:history.back()">Назад</a></div>
+        <div class="title">
+            <h1>Пиццы</h1>
+            <hr>
+        </div>
+        <div class="block">
+            <img src="img/pizza-valentine.png" class="image" />
+            <div><strong>Валентин</strong></div>
+            <div><em>Оливки, перец, лук, бекон, вяленое мясо</em></div>
+            <div><button>450Р В корзину</button></div>
+        </div>
+        <div class="block">
+            <img src="img/pizza-faust.png" class="image" />
+            <div><strong>Иоганн Георг</strong></div>
+            <div><em>Томантая паста, зеленые листочки, моцарелла</em></div>
+            <div><button>740Р В корзину</button></div>
+        </div>
+        <div class="block">
+            <img src="img/pizza-margarita.png" class="image" />
+            <div><strong>Маргарита</strong></div>
+            <div><em>Томатная паста, базилик, масло оливковое, моцарелла</em></div>
+            <div><button>390 Р В корзину</button></div>
+        </div>
+    </div>
 </body>
 </html>

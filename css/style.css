@@ -6,6 +6,10 @@ h1 {
     margin: 0;
 }
 
+.title {
+    width: 100%;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -18,6 +22,6 @@ h1 {
 }
 
 .image {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    max-width: 500px;
 }
