@@ -6,6 +6,16 @@ h1 {
     margin: 0;
 }
 
+label > * {
+    margin: 5px;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
 .title {
     width: 100%;
 }
@@ -28,12 +38,13 @@ h1 {
 
 .check-list {
     list-style: none;
+    margin: 0;
 }
 
 .check-list > * {
     padding: 10px 0;
 }
 
-.check-list input {
+.check-list li > * {
     margin: 5px;
 }

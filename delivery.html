@@ -2,18 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Способ доставки</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-Выберите способ доставки заказа
-
-Курьером
-Дронами
-Пневмопочтой
-Почтой России
-
-Продолжить
-
+    <form action="ready.html" class="content">
+        <div class="title">
+            <h1>Выберите способ доставки заказа</h1>
+            <hr>
+        </div>
+        <fieldset id="group">
+            <ul class="check-list">
+                <li><label><input type="radio" name="group" />Курьером</label></li>
+                <li><label><input type="radio" name="group" />Дронами</label></li>
+                <li><label><input type="radio" name="group" />Пневмопочтой</label></li>
+                <li><label><input type="radio" name="group" />Почтой России</label></li>
+            </ul>
+        </fieldset> 
+        <button type="submit">Продолжить</button>
+    </form>
 </body>
 </html>
