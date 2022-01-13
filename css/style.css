@@ -25,3 +25,15 @@ h1 {
     width: 100%;
     max-width: 500px;
 }
+
+.check-list {
+    list-style: none;
+}
+
+.check-list > * {
+    padding: 10px 0;
+}
+
+.check-list input {
+    margin: 5px;
+}
