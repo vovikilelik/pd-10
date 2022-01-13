@@ -2,9 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Готово</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        table {
+           border: 0;
+           width: 100%;
+        }
+        
+        table thead {
+            font-weight: bold;
+        }
+        
+        table td {
+            width: 33%;
+        }
+        
+        .timeline td {
+            text-align: center;
+        }
+        
+        .timeline td:first-child {
+            text-align: left;
+        }
+        
+        .timeline td:last-child {
+            text-align: right;
+        }
+        
+        .price td:last-child {
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
-
+    <form action="main.html" class="content">
+        <div class="title">
+            <h1>Ваш заказ готовится!</h1>
+        </div>
+        <table class="timeline">
+            <thead>
+                <tr>
+                    <td>21:30</td>
+                    <td>21:40</td>
+                    <td>21:50</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Заказан</td>
+                    <td>Выезжает</td>
+                    <td>У Вас</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="title">
+        <table class="price">
+            <tbody>
+                <tr>
+                    <td>Роллы "Мэрилэнд"</td>
+                    <td>330 Р</td>
+                </tr>
+                <tr>
+                    <td>Пицца с ананасами</td>
+                    <td>504 Р</td>
+                </tr>
+                <tr>
+                    <td>Лапша ушастая</td>
+                    <td>470 Р</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="title">
+        <table>
+            <tbody>
+                <tr>
+                    <td>Всего</td>
+                    <td>1234 Р</td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit">Продолжить</button>
+    </form>
 </body>
 </html>
