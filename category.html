@@ -17,6 +17,10 @@
         .block > *:not(:first-child) {
             margin-top: 15px;
         }
+        
+        .content-wrapper {
+            margin: auto;
+        }
     </style>
 </head>
 <body>
@@ -27,24 +31,26 @@
             <h1>Пиццы</h1>
             <hr>
         </div>
-        <form class="block" action="extra.html">
-            <img src="img/pizza-valentine.png" class="image" />
-            <div><strong>Валентин</strong></div>
-            <div><em>Оливки, перец, лук, бекон, вяленое мясо</em></div>
-            <div><button type="submit">450Р В корзину</button></div>
-        </form>
-        <form class="block" action="extra.html">
-            <img src="img/pizza-faust.png" class="image" />
-            <div><strong>Иоганн Георг</strong></div>
-            <div><em>Томантая паста, зеленые листочки, моцарелла</em></div>
-            <div><button type="submit">740Р В корзину</button></div>
-        </form>
-        <form class="block" action="extra.html">
-            <img src="img/pizza-margarita.png" class="image" />
-            <div><strong>Маргарита</strong></div>
-            <div><em>Томатная паста, базилик, масло оливковое, моцарелла</em></div>
-            <div><button type="submit">390 Р В корзину</button></div>
-        </form>
+        <div class="content-wrapper">
+            <form class="block" action="extra.html">
+                <img src="img/pizza-valentine.png" class="image" />
+                <div><strong>Валентин</strong></div>
+                <div><em>Оливки, перец, лук, бекон, вяленое мясо</em></div>
+                <div><button type="submit">450Р В корзину</button></div>
+            </form>
+            <form class="block" action="extra.html">
+                <img src="img/pizza-faust.png" class="image" />
+                <div><strong>Иоганн Георг</strong></div>
+                <div><em>Томантая паста, зеленые листочки, моцарелла</em></div>
+                <div><button type="submit">740Р В корзину</button></div>
+            </form>
+            <form class="block" action="extra.html">
+                <img src="img/pizza-margarita.png" class="image" />
+                <div><strong>Маргарита</strong></div>
+                <div><em>Томатная паста, базилик, масло оливковое, моцарелла</em></div>
+                <div><button type="submit">390 Р В корзину</button></div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
